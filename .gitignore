@@ -1,0 +1,53 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+
+# Database
+*.sqlite
+
+# Odoo specific
+__pycache__/
+.idea/
+.vscode/
+__odoo.py
+odoo-server.log
+
+# Compiled files
+*.mo
+*.pot
+
+# Backup and swap files
+*~
+*.swp
+*.swo
+
+# Web assets
+web/binary/*
+
+# Compiled Python files
+*.pyc
+
+# IDE specific files
+.idea
+
+# Odoo Log files
+*.log
+
+# Compiled translations
+*.mo
+
+# Local Odoo module specific files
+*/static/description/
+*/static/tests/
+*/static/doc/
+*/static/src/js/
+
+# Thumbnails
+.thumbnails/
+
+# Windows folder configuration
+Thumbs.db
+Desktop.ini
+
+# macOS folder configuration
+.DS_Store
