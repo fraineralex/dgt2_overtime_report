@@ -7,6 +7,11 @@
     'depends': ['hr_payroll'],
     'author': 'Frainer Encarnación',
     'website': 'https://fraineralex.dev',
+    'data': [
+        # 'views/ir.ui.menu.xml',
+        'wizard/dgt2_report_wizard_view.xml',
+        'security/ir.model.access.csv'
+    ],
     'installable': True,
     'auto_install': False,
     'application': False,
