@@ -3,7 +3,7 @@ import xlwt
 import base64
 import io
 
-TITLE = 'Reporte de Horas Extras DGT-2'
+TITLE = 'DGT-2 Overtime Report Wizard'
 
 
 class OvertimeReportWizard(models.TransientModel):
@@ -38,8 +38,8 @@ class OvertimeReportWizard(models.TransientModel):
         total_style = xlwt.easyxf(
             'font: bold on, height 200; pattern: pattern solid, fore_colour silver;')
 
-        headers = ['Empleado', 'Cédula', 'Fecha',
-                   'Nombre', 'Cantidad', 'Monto']
+        headers = ['Employee', 'Identification', 'Date',
+                   'Name', 'Quantity', 'Amount']
 
         for col_num, header in enumerate(headers):
             worksheet.write(0, col_num, header, header_style)
