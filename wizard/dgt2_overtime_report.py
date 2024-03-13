@@ -54,9 +54,9 @@ class OvertimeReportWizard(models.TransientModel):
 
             for line in payslip.line_ids:
                 if line.salary_rule_id in rules and line.total > 0.0:
-                    worksheet.write(row_num, 1, payslip.employee_id.name)
+                    worksheet.write(row_num, 0, payslip.employee_id.name)
                     worksheet.write(
-                        row_num, 0, payslip.employee_id.identification_id)
+                        row_num, 1, payslip.employee_id.identification_id)
                     worksheet.write(
                         row_num, 2, line.date_to.strftime('%Y-%m-%d'))
                     worksheet.write(row_num, 3, line.salary_rule_id.name)
