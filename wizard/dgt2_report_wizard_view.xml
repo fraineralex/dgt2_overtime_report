@@ -1,6 +1,6 @@
 <odoo>
     <record id="action_overtime_report_wizard" model="ir.actions.act_window">
-        <field name="name">Overtime Report Wizard (DGT-2)</field>
+        <field name="name">Overtime Report (DGT-2)</field>
         <field name="res_model">overtime.report.wizard</field>
         <field name="type">ir.actions.act_window</field>
         <field name="view_mode">form</field>
@@ -9,7 +9,7 @@
     </record>
 
     <record id="menuitem_overtime_report" model="ir.ui.menu">
-        <field name="name">Overtime Report Wizard (DGT-2)</field>
+        <field name="name">Overtime Report (DGT-2)</field>
         <field name="parent_id" ref="hr_payroll.menu_hr_payroll_report"/>
         <field name="action" ref="dgt2_overtime_report.action_overtime_report_wizard"/>
     </record>
