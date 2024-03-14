@@ -5,18 +5,17 @@ import io
 
 TITLE = 'DGT-2 Overtime Report Wizard'
 
-
 class OvertimeReportWizard(models.TransientModel):
     _name = 'overtime.report.wizard'
     _description = 'DGT-2 Overtime Report Wizard'
 
     company_id = fields.Many2one('res.company',
-                                 'Compañía',
+                                 'Company',
                                  default=lambda self: self.env.company.id,
                                  required=True, readonly=True)
 
-    payslip_run_ids = fields.Many2many('hr.payslip.run',
-                                       string="Lotes incluidos", domain="[('company_id', '=?', company_id)]")
+    payslip_run_ids = fields.Many2many(
+        'hr.payslip.run', string="Payslip Runs", domain="[('company_id', '=?', company_id)]")
 
     def generate_report(self):
         slip_ids = self.env['hr.payslip'].search(
