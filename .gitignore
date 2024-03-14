@@ -36,12 +36,6 @@ web/binary/*
 # Compiled translations
 *.mo
 
-# Local Odoo module specific files
-*/static/description/
-*/static/tests/
-*/static/doc/
-*/static/src/js/
-
 # Thumbnails
 .thumbnails/
 
