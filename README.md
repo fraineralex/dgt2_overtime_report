@@ -39,7 +39,7 @@
   <a href="#rocket-main-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/fraineralex/dgt2_overtime_report/edit/master/README.md">Contributing</a>
+  <a href="#clapper-usage">Usage</a>
 </p>
 
 ## :dart: About ##
@@ -102,7 +102,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ```
 
-## 🎬 Usage
+## :clapper: Usage
 
 After installing the module, you can use it by going to the appropriate menu in the Human Resources module.
 
