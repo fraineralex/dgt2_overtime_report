@@ -28,9 +28,6 @@
     <img src="https://img.shields.io/github/issues-pr/fraineralex/dgt2_overtime_report?" alt="Badge showing the total of project pull-requests"/>
   </a>
 
-  <a href="https://github.com/fraineralex/dgt2_overtime_report/LICENSE.md" target="_blank">
-    <img alt="Badge showing project license type" src="https://img.shields.io/github/license/fraineralex/dgt2_overtime_report?color=f85149">
-  </a>
 </p>
 
 
